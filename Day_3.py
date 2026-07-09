@@ -1,0 +1,5 @@
+print("=" * 40)
+print("            WELCOME          ")
+print("=" * 40)
+name = Input("Enter your name : ")
+print("Hello," name)
