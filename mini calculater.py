@@ -15,8 +15,12 @@ elif operation == "*":
   mult = a*b
   print("Multiplaction of number", a, "and", b,"is : ", mult)
 elif operation == "/":
-  div = a/b
-  print("Divisition of number", a, "and", b,"is : ", div)
+  if b == 0:
+    print("Cannot divide by ZERO ")
+  else :
+    div = a/b
+    print("Division of number", a, "and", b,"is : ", div)
 else:
-  print("INVILADE OPERATION")
-  
+  print("INVILAD OPERATION")
+print("="*40)
+print("Thank you for using my calculator !")
